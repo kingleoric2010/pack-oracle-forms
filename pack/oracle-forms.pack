@@ -9,11 +9,22 @@
                              "description":"The read snmp community allowed on the linux server"
                              },
 
-         "_FORMS_MEM_WARN": {"type":"Number of Mo",
-                                "description": "Warning threshold. Memory usage of all process forms"
+         "_FORMS_LISTENER_PORT": {"type":"Port number",
+                                "description": "Forms Listener Port"
                              },
-         "_FORMS_MEM_CRIT": {"type":"Number of Mo",
-                                "description": "Critical threshold. Memory usage of all process forms."
+
+         "_FORMS_AVERAGE_MEM_WARN": {"type":"Number of Mo",
+                                "description": "Warning threshold. Average memory usage of all process forms"
+                             },
+         "_FORMS_AVERAGE_MEM_CRIT": {"type":"Number of Mo",
+                                "description": "Critical threshold. Average memory usage of all process forms."
+                             },
+
+         "_FORMS_MAX_MEM_WARN": {"type":"Number of Mo",
+                                "description": "Warning threshold. Max memory usage of all process forms"
+                             },
+         "_FORMS_MAX_MEM_CRIT": {"type":"Number of Mo",
+                                "description": "Critical threshold. Max memory usage of all process forms."
                              },
          "_FORMS_MIN_WARN":  {"type":"Number",
                                  "description": "Number min of sessions forms generating a warning alert"
