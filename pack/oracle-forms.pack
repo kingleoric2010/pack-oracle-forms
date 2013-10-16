@@ -1,0 +1,32 @@
+{
+"name": "oracle-forms",
+
+"description": "Standard Forms checks, like RAM, Session usage, listener state. Checks are done by SNMP and http",
+
+"path":"/",
+
+"macros":{         "_SNMPCOMMUNITY": {"type":"string",
+                             "description":"The read snmp community allowed on the linux server"
+                             },
+
+         "_FORMS_MEM_WARN": {"type":"Number of Mo",
+                                "description": "Warning threshold. Memory usage of all process forms"
+                             },
+         "_FORMS_MEM_CRIT": {"type":"Number of Mo",
+                                "description": "Critical threshold. Memory usage of all process forms."
+                             },
+         "_FORMS_MIN_WARN":  {"type":"Number",
+                                 "description": "Number min of sessions forms generating a warning alert"
+                             },
+         "_FORMS_MAX_WARN": {"type":"Number",
+                                 "description": "Number max of sessions forms generating a warning alert"
+                             },
+         "_FORMS_MIN_CRIT": {"type":"Number",
+                                 "description": "Number min of sessions forms generating a critical alert"
+                             },
+         "_FORMS_MAX_CRIT": {"type":"Number",
+                                 "description": "Number max of sessions forms generating a critical alert"
+                             }
+        }
+}
+
