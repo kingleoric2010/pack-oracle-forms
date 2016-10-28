@@ -1,7 +1,7 @@
 {
 	"name": "oracle-forms",
 	"types": ["pack"],
-	"version": "1.4",
+	"version": "1.5",
 	"homepage": "https://github.com/shinken-monitoring/pack-oracle-forms",
 	"author": "Forlot Romain",
 	"description": "Checks for Oracle forms service",
